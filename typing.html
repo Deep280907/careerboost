@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Test | CareerBoost Pro</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">CareerBoost Pro</a>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="resume.html" class="nav-link">Resume Builder</a>
+        <a href="typing.html" class="nav-link">Typing Test</a>
+        <button id="themeToggle"><i class="fas fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="typing-test">
+    <div class="container">
+      <h1>Typing Speed Test</h1>
+      
+      <div class="typing-header">
+        <div class="stats">
+          <div class="stat">
+            <span id="wpm">0</span>
+            <small>WPM</small>
+          </div>
+          <div class="stat">
+            <span id="accuracy">100%</span>
+            <small>Accuracy</small>
+          </div>
+        </div>
+        
+        <select id="passageCategory">
+          <option value="literature">Literature</option>
+          <option value="quotes">Famous Quotes</option>
+          <!-- More categories -->
+        </select>
+      </div>
+
+      <div class="typing-area">
+        <div id="passageDisplay">Select a category to begin...</div>
+        <textarea id="typingInput" placeholder="Start typing here..."></textarea>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/typing.js"></script>
+</body>
+</html>
