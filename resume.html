@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Resume Builder | CareerBoost Pro</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">CareerBoost Pro</a>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="resume.html" class="nav-link">Resume Builder</a>
+        <a href="typing.html" class="nav-link">Typing Test</a>
+        <button id="themeToggle"><i class="fas fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="resume-builder">
+    <div class="container">
+      <h1>Create Your Perfect Resume</h1>
+      
+      <!-- Template Selection -->
+      <div class="template-gallery">
+        <h2>Choose from 20+ Professional Templates</h2>
+        <div class="templates">
+          <!-- Template thumbnails would go here -->
+          <div class="template" data-template="modern">
+            <img src="images/template1.jpg" alt="Modern Template">
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume Editor -->
+      <div class="resume-editor">
+        <form id="resumeForm">
+          <div class="form-section">
+            <h3>Personal Information</h3>
+            <input type="text" placeholder="Full Name">
+            <!-- More form fields -->
+          </div>
+          
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-file-export"></i> Export Resume
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+  
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/resume.js"></script>
+</body>
+</html>
